@@ -1,18 +1,62 @@
 <!DOCTYPE html>
 
 <html lang="de">
-    <head>
-        <meta charset="utf-8">
-        <title>Recipes</title>
-    </head>
 
-    <body>
-        <h1>Odin Recipes</h1>
-        <img src="./img/rezeptsammlung.jpg" alt="Rezeptsammlung" width="400">
-        <ul>
-            <li><a href="./recipes/lasagna.html">Brenda's Lasagna</a></li>
-            <li><a href="./recipes/pho.html">Homemade Pho</a></li>
-            <li><a href="./recipes/buddha-bowl.html">Buddha Bowl</a></li>
-        </ul>
-    </body>
+<head>
+    <meta charset="utf-8">
+    <title>Recipes</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="header">
+        <img src="./img/chicken-tikka-masala.webp" alt="Chicken Tikka Masala">
+        <h1 class="header-description">Odin Recipes</h1>
+    </div>
+
+    <div class="content">
+        <div class="content-child">
+            <form action="./recipes/lasagna.html">
+                <input type="image" src="./img/lasagne.jfif" class="recipe">
+                <p class="content-description">Brenda's Lasagna</p>
+            </form>
+        </div>
+
+        <div class="content-child">
+            <form action="./recipes/pho.html">
+                <input type="image" src="./img/pho.jpg" class="recipe">
+                <p class="content-description">Homemade Pho</p>
+            </form>
+        </div>
+
+        <div class="content-child">
+            <form action="./recipes/buddha-bowl.html">
+                <input type="image" src="./img/buddha-bowl.jpg" class="recipe">
+                <p class="content-description">Buddha Bowl</p>
+            </form>
+        </div>
+
+        <div class="content-child">
+            <form action="">
+                <input type="image" src="./img/buddha-bowl.jpg" class="recipe">
+                <p class="content-description">Placeholder</p>
+            </form>
+        </div>
+
+        <div class="content-child">
+            <form action="">
+                <input type="image" src="./img/buddha-bowl.jpg" class="recipe">
+                <p class="content-description">Placeholder</p>
+            </form>
+        </div>
+
+        <div class="content-child">
+            <form action="">
+                <input type="image" src="./img/buddha-bowl.jpg" class="recipe">
+                <p class="content-description">Placeholder</p>
+            </form>
+        </div>
+    </div>
+</body>
+
 </html>
